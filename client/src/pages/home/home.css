@@ -1,0 +1,8 @@
+.homeContainer{
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.612)),url('../../../public/assets/grppic.jpg');
+    object-fit: cover;
+    display: flex;
+    /* background-color: aqua; */
+}

@@ -1,0 +1,43 @@
+.infoBox{
+    margin:20px;
+    font-family: 'Carter One', cursive;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #17252A;
+    border-radius: 25px;
+    opacity: 1;
+    
+    
+}
+.infoWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.infoHead{
+    font-family: 'Carter One', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+.infoItem{
+    margin: 5px;
+    background-color: transparent;
+    
+    
+    
+    
+    font-size: 18px;
+    
+}
+.InfoItemKey{
+    font-size: 20px;
+    
+
+}
+.InfoItemValue{
+    color: rgb(232, 215, 215);
+}

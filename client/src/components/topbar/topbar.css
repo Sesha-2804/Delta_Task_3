@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topbarContainer{
+    height: 60px;
+    width: 100%;
+    background-color:  #17252A;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    z-index: 999;
+    justify-content: space-between;
+    border-bottom:3px solid #17252A;
+}
+.logo{
+    font-family: 'Carter One', cursive;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 28px;
+    color: #FEFFFF;
+    cursor: pointer;
+}
+.searchbar{
+    width:100%;
+    height:35px;
+    background-color: #DEF2F1;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.searchInput{
+    background-color:#DEF2F1;
+    border: none;
+    width: 80%;
+    height: 90%;
+    font-weight: 600;
+    font-size: 16px;
+    
+    
+}
+.searchbar i{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+.topbarLeft{
+    flex: 3;
+}
+.topbarCenter{
+    flex: 5;
+}
+.topbarRight{
+    font-family: 'Secular One', sans-serif;
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #DEF2F1;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.userBox i{
+    border-radius: 50%;
+    
+}
+.userProfile{
+    margin-left: 10px;
+
+}
+.logout{
+    font-family: 'Secular One', sans-serif;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    color: #DEF2F1;
+    background-color:#2B7A78;
+}

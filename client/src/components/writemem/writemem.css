@@ -1,0 +1,51 @@
+.writeMemBox{
+    background-color: #17252A;
+    padding: 20px;
+    padding-left: 30px;
+    color: white;
+    border-radius: 15px;
+}
+.writeInput {
+    font-size: 17px;
+    border: none;
+    padding: 20px;
+    width: 90%;
+    margin: 18px;
+    border-radius: 15px;
+    background-color: #34484f;
+    color: white;
+    resize: vertical;
+  }
+.memBoxHead{
+    font-family: 'Mogra', cursive;
+    text-align: center;
+    font-size: 45px
+}
+.memories{
+    
+    font-weight: 600;
+    height: 100px;
+}
+.label{
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 20px;
+}
+
+.uploadPictureLink{
+    margin-top: 18px;
+    font-size: 18px;
+    
+}
+.writeSubmit{
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 20px;
+    width:  100px;
+    padding: 8px;
+    font-family: 'Carter One', cursive;
+    background-color:#49626b;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

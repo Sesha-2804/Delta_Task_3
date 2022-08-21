@@ -1,0 +1,12 @@
+.MembookContainer{
+    width:100%;
+    display: flex;
+    background-color: rgb(210, 207, 204);
+}
+.chummadiv{
+    flex:7
+}
+.wrap{
+    flex: 3;
+    width: 100%;
+}

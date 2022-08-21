@@ -1,0 +1,31 @@
+.memBox{
+    width: 80%;
+    padding:20px;
+    background-color:#17252A ;
+    color: white;
+    margin: 18px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.memPicdiv{
+    width:350px;
+    object-fit: cover;
+}
+.wrapper{
+    
+    width: 100%;
+    margin: 15px;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+.wrapper h3{
+    font-size: 30px;
+}
+.wrapper p{
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: rgb(210, 207, 204);
+
+}

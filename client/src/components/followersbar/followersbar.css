@@ -1,0 +1,41 @@
+.infobar{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    font-family: 'Carter One', cursive;
+}
+.nameandbatch{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btnContainer{
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.btnContainer button{
+    width:130px;
+    font-size: 20px;
+    padding: 8px;
+    font-weight: 500;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    font-family: 'Carter One', cursive;
+    border: none;
+}
+.btnContainer button:hover{
+    background-color:#687d87;
+    font-weight: 600;
+    cursor: pointer;
+}
